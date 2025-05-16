@@ -65,7 +65,7 @@ const EmailView = ({ email }) => {
               Thank you for using our service. This is a sample email to demonstrate the functionality of our temporary email system.
             </p>
             <p className="mt-4">
-              With TempMail, you can:
+              With GetMail, you can:
             </p>
             <ul className="list-disc pl-5 mt-2">
               <li>Generate disposable email addresses</li>
@@ -78,7 +78,7 @@ const EmailView = ({ email }) => {
             </p>
             <p className="mt-4">
               Best regards,<br />
-              The TempMail Team
+              The GetMail Team
             </p>
           </div>
         </div>

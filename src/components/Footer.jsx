@@ -12,7 +12,7 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                TempMail
+                GetMail
               </span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-6 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} TempMail. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} GetMail. All rights reserved.</p>
           <p className="mt-1">This is a demo application. Emails are not actually sent or received.</p>
         </div>
       </div>
