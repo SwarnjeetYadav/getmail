@@ -40,7 +40,7 @@ export const EmailProvider = ({ children }) => {
         username += characters.charAt(Math.floor(Math.random() * characters.length));
       }
       
-      const domains = ['tempmail.com', 'quickmail.org', 'disposable.net', 'gettogether.site', 'getmail.com'];
+      const domains = ['gettogether.site', 'getmail.com'];    //'tempmail.com', 'quickmail.org', 'disposable.net', 
       const domain = domains[Math.floor(Math.random() * domains.length)];
       
       const newEmail = {
